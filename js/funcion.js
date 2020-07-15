@@ -13,7 +13,7 @@ $("html, body").animate({ scrollTop: 0 }, 1000);
 
 // scrool to proyectos
 $('.proyectos').on('click', function(){
-$("html, body").animate({ scrollTop: $('#proyectos').height() + $('.header').height()}, 1000);
+$("html, body").animate({ scrollTop: $('#pruebas').height()}, 1000);
 })
 
 // scrool to acerca de 
@@ -107,3 +107,57 @@ $('.movil-nav').toggleClass("push");
 $('.icon-menu').toggleClass("push");
 $("html, body").animate({ scrollTop: $("#about").height() + $("#proyectos").height() + $("#pruebas").height()+ $("#contactme").height()}, 1000);
 })
+
+$('.banner, .info-box').hide();
+
+
+// show info
+
+$('#lobby_system').on('click', function(){
+	$('.banner').fadeIn();
+	$('#lobby_info').fadeIn();
+	$('#lobby_info').css({
+         	transform: 'scale(1)'
+         })
+})
+
+//show bungee
+$('#bungee_auth').on('click', function(){
+	$('.banner').fadeIn();
+	$('#bungee_info').fadeIn();
+	$('#bungee_info').css({
+         	transform: 'scale(1)'
+         })
+})
+
+
+
+// show protector
+$('#blocker_plugin').on('click', function(){
+	$('.banner').fadeIn();
+	$('#protector_info').fadeIn();
+	$('#protector_info').css({
+         	transform: 'scale(1)'
+         })
+})
+
+
+// show cars
+$('#cars').on('click', function(){
+	$('.banner').fadeIn();
+	$('#cars_info').fadeIn();
+	$('#cars_info').css({
+         	transform: 'scale(1)'
+         })
+})
+
+// show info
+$('.icon-cancel').on('click', function(){
+	$('.banner').fadeOut();
+	$('.info-box').css({
+         	transform: 'scale(0)'
+         })
+		$('.info-box').fadeOut();
+})
+
+
