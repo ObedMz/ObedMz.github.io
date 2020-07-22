@@ -121,7 +121,7 @@ $('#lobby_system').on('click', function(){
          })
 })
 
-//show bungee
+/*show bungee
 $('#bungee_auth').on('click', function(){
 	$('.banner').fadeIn();
 	$('#bungee_info').fadeIn();
@@ -130,19 +130,19 @@ $('#bungee_auth').on('click', function(){
          })
 })
 
-
+*/
 
 // show protector
-$('#blocker_plugin').on('click', function(){
+/*$('#blocker_plugin').on('click', function(){
 	$('.banner').fadeIn();
 	$('#protector_info').fadeIn();
 	$('#protector_info').css({
          	transform: 'scale(1)'
          })
 })
+*/
 
-
-// show cars
+/* show cars
 $('#cars').on('click', function(){
 	$('.banner').fadeIn();
 	$('#cars_info').fadeIn();
@@ -150,6 +150,7 @@ $('#cars').on('click', function(){
          	transform: 'scale(1)'
          })
 })
+*/
 
 // show info
 $('.icon-cancel').on('click', function(){
