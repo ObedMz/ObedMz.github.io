@@ -1,3 +1,4 @@
+  
 $(function(){
   var header = document.getElementById('header');
   var headroom = new Headroom(header);
@@ -129,7 +130,6 @@ $('#bungee_auth').on('click', function(){
          	transform: 'scale(1)'
          })
 })
-
 */
 
 // show protector
@@ -151,6 +151,7 @@ $('#cars').on('click', function(){
          })
 })
 */
+
 // show info
 $('.icon-cancel').on('click', function(){
 	$('.banner').fadeOut();
@@ -159,5 +160,3 @@ $('.icon-cancel').on('click', function(){
          })
 		$('.info-box').fadeOut();
 })
-
-
