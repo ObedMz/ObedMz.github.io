@@ -310,6 +310,9 @@ footer p {
 	left:0px;
 	background: #EE8915;
 }
+.github {
+	padding:10px;
+}
 
 /* cell */
 @media screen and (max-width: 600px){
