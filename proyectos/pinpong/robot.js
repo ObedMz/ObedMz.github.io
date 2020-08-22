@@ -15,14 +15,19 @@ function robot(){
 
 	this.update = function(){
 
-		this.y = bola.y;
+		//this.y = bola.y;
 
 		this.y = constrain(this.y, 0, height-150);
-		if(this.y == height-150){
-			this.dir(0,-2);
-		}else if(this.y == 0){
-			this.dir(0,2);
+		if(bola.x >= 750){
+		// is in mid
+		if(bola.y >= this.y + 150){
+			this.y = this.y + 23;
+	
+		} else if(bola.y <= this.y){
+			this.y = this.y - 21.3;
+
 		}
+	}
 	/*	if(this.y - 150 >= bola.y){
 			this.dir(0,2);
 		} */
