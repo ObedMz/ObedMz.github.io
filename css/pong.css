@@ -1,0 +1,26 @@
+header{
+	height: 80px;
+	position:fixed;
+	z-index:1;
+}
+body {
+  padding:0px;
+  margin:0px;
+
+}
+.content {
+	padding:80px;
+}
+.title {
+	padding-top:80px;
+}
+
+#defaultCanvas0 {
+	display:block;
+    width:20%;
+}
+
+
+@media screen and (max-width: 1110px){
+
+}

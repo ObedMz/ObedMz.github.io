@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head> 
+    <link rel="icon" href="../../img/icon.jpg">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Open+Sans&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="../../css/pong.css">
+
+    <script type="text/javascript" src="../../js/jquery-2.1.0.min.js"></script>
+    <script src="https://kit.fontawesome.com/16323e4293.js" crossorigin="anonymous"></script>
+    <title>Obed Mz</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -9,6 +24,35 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.1.0/dist/tf.min.js"></script>
 </head>
 <body>
+     <header id="pruebas">
+    <div class="movil-header">
+        <a class="icon-menu"></a>
+    </div>
+    <div class="movil-nav">
+        <nav>
+            <li class="icon-home">     Inicio</li>
+            <li class="icon-folder">     Proyectos</li>
+            <li class="icon-user">     Acerca de</li>
+            <li class="icon-mail">     Contactame</li>
+        </nav>
+    </div>
+   <div id="header" class="header">
+    <div class="left">
+    <a href="#!" class="inicio">Inicio</a>
+    <a href="#!" class="proyectos">Proyectos</a>
+    <a href="#!" class="acerca">Acerca de</a>
+    </div>
+    <a href="#!" class="contact">Contactame</a>
+   </div>
+ </header>
+    <main id="main">
+        
+<section class="content">
+    <h1 class="title">Snake Game</h1>
+    <p>Este juego es una simple replica del juego de "La serpiente" de 1980 por Milton Bradley, esta version está programada en javascript usando p5.js web editor usando canvas.</p>
+    <a href="https://github.com/ObedMz/Snake-Game" class="github"  target="_blank">Source Code</a>
+
+</section>
 <audio controls autoplay style="display:none;">
   <source src="music.mp3" type="audio/mp3">
 </audio>
@@ -16,5 +60,15 @@
 	<script src="bola.js"></script>
 	<script src="robot.js"></script>
 	<script src="function.js"></script>
+    <script type="text/javascript">
+window.addEventListener("keydown", function(e) {
+    // space and arrow keys
+    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
+        e.preventDefault();
+    }
+}, false);
+
+</script>
+
 </body>
 </html>
