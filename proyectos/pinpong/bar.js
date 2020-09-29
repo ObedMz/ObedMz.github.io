@@ -15,7 +15,7 @@ function bar(){
 	} 
 
 	this.show = function(){
-		fill(2555);
+		fill(255);
 		rect(this.x, this.y,scal,150);
 	}
 

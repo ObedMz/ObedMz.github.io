@@ -1,0 +1,41 @@
+canvas {
+	display:block;
+	margin:auto;
+	margin-bottom:50px;
+}
+.button-computer {
+	position:relative;
+	display:block;
+	margin:auto;
+	margin-top:-400px;
+	text-align:center;
+	color:white;
+	background:#333333;
+	padding:15px 15px;
+	border:none;
+	border:1px solid white;
+	cursor:pointer;
+	transition:all 0.3s;
+}
+.button-computer:hover {
+	transition:all 0.3s;
+	background:rgba(251,251,251,0.2);
+}
+
+.button-human {
+	position:relative;
+	display:block;
+	margin:auto;
+	margin-top:30px;
+	text-align:center;
+	color:white;
+	background:#333333;
+	padding:15px 15px;
+	border:none;
+	border:1px solid white;
+	cursor:pointer;
+}
+.button-human:hover {
+	transition:all 0.3s;
+	background:rgba(251,251,251,0.2);
+}

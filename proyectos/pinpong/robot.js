@@ -18,7 +18,8 @@ function robot(){
 		//this.y = bola.y;
 
 		this.y = constrain(this.y, 0, height-150);
-		if(bola.x >= 750){
+		if(menu.computer){
+			if(bola.x >= 750){
 		// is in mid
 		if(bola.y >= this.y + 150){
 			this.y = this.y + 23;
@@ -27,7 +28,8 @@ function robot(){
 			this.y = this.y - 21.3;
 
 		}
-	}
+		}
+		}
 	/*	if(this.y - 150 >= bola.y){
 			this.dir(0,2);
 		} */

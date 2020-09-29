@@ -8,11 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../../css/style.css">
     <link rel="stylesheet" type="text/css" href="../../css/fontello.css">
-    <link rel="stylesheet" type="text/css" href="../../css/pong.css">
-    <link rel="stylesheet" type="text/css" href="ping.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.1.0/dist/tf.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
      <header id="pruebas">
@@ -39,28 +35,17 @@
     <main id="main">
         
 <section class="content">
-    <h1 class="title">Pong Game</h1>
-    <p>Replica del juego "Pong" de las consolas Atari, esta version está programada en javascript usando p5.js web editor en canvas, para jugar debes usar las teclas "W" (para subir) y "S" (para bajar) , para el segundo jugador debe usar las flechas direccionales del teclado.</p>
+    <br>
+    <h1 class="title">Face Detection</h1>
+    <p>Esta es una A.I programada en JavaScript capas de reconocer multiples rostros y dibujarlos en tiempo real, reconoce algunas expresiones del rostro al estar feliz, enojado, triste, disgustado, entre otros.
+    Para la correcta detección se recomienda estar en un ambiente iluminado y permitir al navegador el uso de la camara la cual puede ser habilitada y desactivada dentro de las mismas opciones de la pagina.</p>
     <a href="https://github.com/ObedMz/Snake-Game" class="github"  target="_blank">Source Code</a>
 
 </section>
+<br>
+<br>
+ <iframe src="https://vps-96564ee0.vps.ovh.ca/"></iframe>
 
-<audio controls autoplay style="display:none;">
-  <source src="music.mp3" type="audio/mp3">
-</audio>
-    <script src="background.js"></script>
-	<script src="bar.js"></script>
-	<script src="bola.js"></script>
-	<script src="robot.js"></script>
-	<script src="function.js"></script>
-<script type="text/javascript">
-window.addEventListener("keydown", function(e) {
-    // space and arrow keys
-    if([32, 37, 38, 39, 40].indexOf(e.keyCode) > -1) {
-        e.preventDefault();
-    }
-}, false);
 
-</script>
 </body>
 </html>
